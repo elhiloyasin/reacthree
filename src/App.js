@@ -17,7 +17,7 @@ function App() {
     <>
       <Router>
         <TopNavbar
-          logo='Yassin Elhilo'
+          logo='Yasin Elhilo'
           aboutme='ABOUT ME'
           projects='PROJECTS'
           contact='CONTACT'

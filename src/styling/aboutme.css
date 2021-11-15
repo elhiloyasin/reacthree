@@ -15,7 +15,18 @@ div h1:hover{
     color: rgba(22, 128, 177, 0.981) !important;
 }
 
+#imagedawg{
+    
+    box-shadow:  1px 9px 144px 5px #03b2f7;
+    border-radius: 2rem;
+}
+
 
 .bio-info{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
     color: white;
 }
+
+
