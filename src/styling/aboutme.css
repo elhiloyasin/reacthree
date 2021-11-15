@@ -1,5 +1,21 @@
-.intro{
- color: blue !important;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Shrikhand&family=Yuji+Boku&display=swap');
+
+.title-container{
+display: flex;
+flex-direction: row;
+justify-content: center ;
+ color: rgba(24, 224, 164, 0.981);
+ font-family: Boku;
+ margin-top: 2rem;
+ border-bottom: 1px solid rgba(98, 104, 160, 0.268);
+ 
 } 
 
-/* as;dlfjk */
+div h1:hover{
+    color: rgba(22, 128, 177, 0.981) !important;
+}
+
+
+.bio-info{
+    color: white;
+}
