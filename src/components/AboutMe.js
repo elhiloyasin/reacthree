@@ -9,7 +9,7 @@ function AboutMe() {
             </div>
             <div class='biography'>
                 <div className='image'>
-                
+                <img src="src/styling/west.jpg" alt='kanyewest'></img>
                 </div>
                 <div className='bio-info'>
                     <p>
