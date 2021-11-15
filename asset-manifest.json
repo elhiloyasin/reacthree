@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/elhiloyasin/reacthree.git/static/css/main.501d6dc5.chunk.css",
+    "main.js": "/elhiloyasin/reacthree.git/static/js/main.4fa8dbad.chunk.js",
+    "main.js.map": "/elhiloyasin/reacthree.git/static/js/main.4fa8dbad.chunk.js.map",
+    "runtime-main.js": "/elhiloyasin/reacthree.git/static/js/runtime-main.41836eff.js",
+    "runtime-main.js.map": "/elhiloyasin/reacthree.git/static/js/runtime-main.41836eff.js.map",
+    "static/css/2.383c0125.chunk.css": "/elhiloyasin/reacthree.git/static/css/2.383c0125.chunk.css",
+    "static/js/2.5e5cd56a.chunk.js": "/elhiloyasin/reacthree.git/static/js/2.5e5cd56a.chunk.js",
+    "static/js/2.5e5cd56a.chunk.js.map": "/elhiloyasin/reacthree.git/static/js/2.5e5cd56a.chunk.js.map",
+    "static/js/3.b8f82849.chunk.js": "/elhiloyasin/reacthree.git/static/js/3.b8f82849.chunk.js",
+    "static/js/3.b8f82849.chunk.js.map": "/elhiloyasin/reacthree.git/static/js/3.b8f82849.chunk.js.map",
+    "index.html": "/elhiloyasin/reacthree.git/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/elhiloyasin/reacthree.git/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.501d6dc5.chunk.css.map": "/elhiloyasin/reacthree.git/static/css/main.501d6dc5.chunk.css.map",
+    "static/js/2.5e5cd56a.chunk.js.LICENSE.txt": "/elhiloyasin/reacthree.git/static/js/2.5e5cd56a.chunk.js.LICENSE.txt",
+    "static/media/topnavbar.css": "/elhiloyasin/reacthree.git/static/media/einstein.1daab19d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41836eff.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.5e5cd56a.chunk.js",
+    "static/css/main.501d6dc5.chunk.css",
+    "static/js/main.4fa8dbad.chunk.js"
+  ]
+}
