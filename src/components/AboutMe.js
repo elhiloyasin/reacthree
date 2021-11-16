@@ -14,7 +14,7 @@ function AboutMe() {
             <Container>
                 <Row>
                     <Col xs={6} md={4}>
-                        <Image  id='imagedawg'src={Yaze} thumbnail />
+                        <Image  id='image'src={Yaze} thumbnail />
                     </Col>
                 </Row>
                 <div className='bio-info'>

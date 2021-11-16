@@ -15,8 +15,11 @@ div h1:hover{
     color: rgba(22, 128, 177, 0.981) !important;
 }
 
-#imagedawg{
-    
+#image{
+    /* display: inline; */
+    left:auto;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
     box-shadow:  1px 9px 144px 5px #03b2f7;
     border-radius: 2rem;
 }
@@ -26,7 +29,7 @@ div h1:hover{
     display: flex;
     flex-direction: row;
     text-align: center;
-    color: white;
+    color: rgb(209, 27, 148);
 }
 
 
