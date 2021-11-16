@@ -2,7 +2,7 @@ import react from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import Yaze from '../images/yaze.jpg';
-import Logos from '../images/'
+import *  from '../images';
 
 
 function AboutMe() {
