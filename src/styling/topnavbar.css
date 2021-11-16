@@ -5,6 +5,11 @@
 background-color: rgb(27, 29, 29);
 }
 
+.sticky-nav {
+  position: sticky !important;
+  top: 0 !important ;
+}
+
 /* rgb(25, 148, 175) */
 
 body{

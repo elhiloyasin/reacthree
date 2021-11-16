@@ -28,16 +28,22 @@ function AboutMe() {
                     </p>
 
                 </div>
-            </Container>
+                <menu id="skills">
+            <div className='skills-title'>
+            <h1>Skills</h1>
+            </div>
+
+
+
+                </menu>
             
-            {/* <div class='biography'>
-                <div id='image'>
-                    <img src={Image} alt='sexy'></img>
-                </div>
+            </Container>
+        
+         
                
 
 
-            </div> */}
+  
 
         </>
 

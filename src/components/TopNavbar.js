@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
   function TopNavbar({aboutme, projects, contact, logo}) {
     return (
-    <ReactBootStrap.Navbar collapseOnSelect expand="md" id="navbar-color" variant="dark">
+    <ReactBootStrap.Navbar className='sticky-nav' collapseOnSelect expand="md" id="navbar-color" variant="dark">
     <ReactBootStrap.Container>
     <Link to='/' style={{ textDecoration: 'none' }}>
     <ReactBootStrap.Navbar.Brand href="#home" className='logo'>{logo}</ReactBootStrap.Navbar.Brand>
