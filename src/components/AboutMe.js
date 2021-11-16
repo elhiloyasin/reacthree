@@ -18,15 +18,15 @@ import express from '../images/express.png';
 
 
 
-const imagesArray = [Bootstrap, Css, express, github, html, javascript, jquery, mern, mongodb, mysql, node, nodepackage, reactjs];
+// const imagesArray = [Bootstrap, Css, express, github, html, javascript, jquery, mern, mongodb, mysql, node, nodepackage, reactjs];
 
-{
-    imagesArray.length && imagesArray.map(image => (
+// {
+//     imagesArray.length && imagesArray.map(image => (
      
-       <img src={image}></img>
+//        <img src={image}></img>
      
-    ))
-  }
+//     ))
+//   }
 
 
 
@@ -56,10 +56,24 @@ function AboutMe() {
                 <menu id="skills">
             <div className='skills-title'>
             <h1>Skills</h1>
+            
          
 
             </div>
             <div className='icons'>
+
+            const imagesArray = [Bootstrap, Css, express, github, html, javascript, jquery, mern, mongodb, mysql, node, nodepackage, reactjs];
+
+{
+           imagesArray.length && imagesArray.map(image => (
+     
+       <img src={image}></img>
+     
+
+
+
+
+
 
 
             </div>
