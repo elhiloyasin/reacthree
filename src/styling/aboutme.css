@@ -30,7 +30,8 @@ div h1:hover{
     display: flex;
     flex-direction: row;
     text-align: center;
-    color: rgb(242, 242, 242);
+    color: rgb(255, 255, 255);
+   
 }
 
 
