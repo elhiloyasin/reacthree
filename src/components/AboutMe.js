@@ -18,15 +18,15 @@ import express from '../images/express.png';
 
 
 
-
-
-
-
-
 const imagesArray = [Bootstrap, Css, express, github, html, javascript, jquery, mern, mongodb, mysql, node, nodepackage, reactjs];
 
-
- {console.log(imagesArray[1])}
+{
+    imagesArray.length && imagesArray.map(image => (
+     
+       <img src={image}></img>
+     
+    ))
+  }
 
 
 
