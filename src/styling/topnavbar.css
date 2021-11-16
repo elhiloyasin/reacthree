@@ -13,7 +13,7 @@ background-color: rgb(27, 29, 29);
 /* rgb(25, 148, 175) */
 
 body{
-  background-image: url(./einstein.jpg);
+  background-image: url(../images/einstein.jpg);
 }
 
 .logo{
