@@ -1,0 +1,11 @@
+.projects-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+     color: rgba(22, 128, 177, 0.981);
+     font-family: boku;
+     margin-top: 2rem;
+     border-bottom: 1px solid rgba(98, 104, 160, 0.099);
+     
+    } 
+  

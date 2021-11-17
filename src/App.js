@@ -2,6 +2,7 @@ import '../src/styling/topnavbar.css';
 import '../src/styling/aboutme.css';
 import '../src/styling/contact.css';
 import '../src/styling/footer.css';
+import '../src/styling/projects.css'
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import TopNavbar from './components/TopNavbar';

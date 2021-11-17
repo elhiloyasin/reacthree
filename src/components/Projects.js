@@ -6,7 +6,9 @@ function Projects() {
 
         <>
       
-        <h1>this is my project section not done yet lol</h1>
+      <div className='projects-title'>
+                <h1>Projects</h1>
+            </div>
 
 
         </>

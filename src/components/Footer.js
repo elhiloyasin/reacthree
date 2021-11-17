@@ -27,7 +27,7 @@ function Footer() {
             <a href="https://bit.ly/3CCzwvT" target="_blank">
               <MdEmail />
             </a>
-            <a href="https://docs.google.com/document/d/1Bv84tGCBhyWEUkxecOpT2x9q1ClG63eqRTxgHxZpudc/edit" target="_blank">
+            <a href="https://docs.google.com/document/d/1Bv84tGCBhyWEUkxecOpT2x9q1ClG63eqRTxgHxZpudc/" target="_blank">
             <ImFileEmpty />
             </a>
 
