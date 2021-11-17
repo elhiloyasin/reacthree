@@ -5,20 +5,17 @@ display: flex;
 flex-direction: row;
 justify-content: center ;
  color: rgba(22, 128, 177, 0.981);
- font-family: Boku;
+ font-family: boku;
  margin-top: 2rem;
  border-bottom: 1px solid rgba(98, 104, 160, 0.099);
  
 } 
 
 div h1:hover{
-    color: rgba(22, 177, 110, 0.981) !important;
     cursor: default;
 }
 
 #image{
-    /* display: inline; */
- 
     margin-top: 3.5rem;
     margin-bottom: 2rem;
     box-shadow:  1px 9px 144px 5px #03b2f7;
@@ -32,17 +29,20 @@ div h1:hover{
     flex-direction: row;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: large;
-    border-bottom: 1px solid rgba(98, 104, 160, 0.268);
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgba(98, 104, 160, 0.832);
     animation-name: text;
     animation-duration: 4s;
+   
+
+   
    
    
 }
 
 @keyframes text {
     0%   {color:rgb(0, 0, 0)}
-    25%  {color:rgb(11, 92, 191)}
+    25%  {color:rgb(191, 155, 11)}
     25%  {font-size:xx-large;}
   
     
@@ -54,14 +54,69 @@ div h1:hover{
     justify-content: center;
     cursor: default;
     font-family: boku;
-    color: rgba(22, 128, 177, 0.981);
-    margin-top: 4rem;
+    color: rgba(11, 184, 237, 0.981);
+    margin-top: 3rem;
+    border-radius: 4rem !important;
     background-color: rgba(4, 0, 19, 0.66) !important;
-    border-radius: 3rem;
     height: 24rem;
+    border-bottom: 7px solid rgba(4, 244, 120, 0.973) !important;
+  
     
  
 }
+
+
+#frontend-title{
+    padding-right:3rem;
+    color: rgb(9, 231, 72);
+   position: relative;
+   bottom: 20rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   font-family: cursive;
+}
+
+
+.technologies{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 19rem;
+    color:rgb(255, 255, 255);
+    font-family: Inconsolata;
+    font-size: x-large;
+    margin-right: 2rem;
+    flex-wrap: wrap;
+}
+
+p:hover {
+    color: rgb(241, 222, 8);
+    cursor: default;
+    font-size: x-large;
+}
+
+h2:hover{
+    color: yellow;
+}
+
+
+h1{
+    font-size: 3.5rem !important;
+}
+
+@media ( max-width: 600px){
+    .technologies{
+        flex-direction: row;
+        margin-right: 1rem;
+        padding: 1.5rem;
+
+    }
+}
+   
+
+
+
 
 
 
