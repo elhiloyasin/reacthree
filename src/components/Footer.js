@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card } from 'react-bootstrap';
+import { Card, Text } from 'react-bootstrap';
 
 
 
@@ -7,12 +7,15 @@ import {Card } from 'react-bootstrap';
 function Footer() {
     return (
 
-      <Card className="text-copyright">
-      <Card.Header>© 2021 Copyright: Yasin Elhilo</Card.Header>
-      <Card.Body>
-        <Card.Text className='socialmedia'>
+      <Card>
+
+      <Card.Body className='footer-color'>
+      <Card.Text className='socialmedia-icons'>
           With supporting text below as a natural lead-in to additional content.
         </Card.Text>
+      <Card.Text className="text-copyright">© 2021 Copyright: Yasin Elhilo</Card.Text>
+     
+       
       </Card.Body>
     </Card>
     )

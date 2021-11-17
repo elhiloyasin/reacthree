@@ -29,14 +29,10 @@ div h1:hover{
     flex-direction: row;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 1.1rem;
+    font-size: x-large;
     /* border-bottom: 1px solid rgba(98, 104, 160, 0.832); */
     animation-name: text;
     animation-duration: 4s;
-   
-
-   
-   
    
 }
 
@@ -44,8 +40,6 @@ div h1:hover{
     0%   {color:rgb(0, 0, 0)}
     25%  {color:rgb(238, 219, 11)}
     25%  {font-size:xx-large;}
-  
-    
   }
 
  .skills-title{
@@ -62,15 +56,6 @@ div h1:hover{
 
 
 } 
-
-p:hover {
-    color: rgb(247, 239, 2);
-    cursor: default;
-    font-size: x-large;
-}
-
-
-
 
 
 h1{
@@ -89,8 +74,6 @@ h1{
     animation-iteration-count: 1;
     
 }
-
-
 
 
 @keyframes tech {

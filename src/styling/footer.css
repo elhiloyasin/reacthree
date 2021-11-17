@@ -1,0 +1,16 @@
+.socialmedia-icons{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+
+}
+
+.text-copyright{
+    color: white;
+    text-align:center;
+}
+
+.footer-color{
+    background-color: rgb(27, 29, 29);
+}
