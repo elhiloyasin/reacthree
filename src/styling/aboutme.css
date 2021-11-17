@@ -63,20 +63,6 @@ div h1:hover{
 
 } 
 
-
-
-
-.frontend-title{
-    font-family: cursive;
-    text-align: center;
-    color:rgb(164, 32, 204);
-    font-weight: bolder;
-   
-}
-
-
-
-
 p:hover {
     color: rgb(247, 239, 2);
     cursor: default;
@@ -118,7 +104,7 @@ h1{
   .gitty{
       margin-left: 3rem;
       padding-left: .2rem;
-      background-color: rgba(19, 153, 4, 0.886);
+      background-color: rgba(18, 176, 134, 0.886);
      
   }
 
@@ -127,9 +113,6 @@ h1{
       
   }
 
-  #mern{
-    
-  }
 
 
 
