@@ -1,17 +1,17 @@
 
 .text-copyright{
     color: white;
-    text-align:center;
 }
 
 .footer-color{
     background-color: rgb(27, 29, 29);
+    text-align: center !important;
+ 
 }
 
-.sexy {
-    position: relative;
-    display: fixed;
-    width: 20px;
-    color: rgb(0, 128, 119);
-    left: 10rem !important;
+
+.icons{
+    color: rgb(9, 241, 183) !important; 
+    margin-right: 1rem;
+    
 }

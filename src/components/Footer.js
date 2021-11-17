@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styling/footer.css';
 import { Card } from 'react-bootstrap';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -13,9 +14,9 @@ function Footer() {
 
     <Card>
 
-      <Card.Body className='footer-color'>
+      <Card.Body className='footer-color icons'>
         <Card.Text>
-          <IconContext.Provider value={{ className:'sexy' }}>
+          <IconContext.Provider value={{ className: 'icons' , size: '1.3rem'}}>
             <a href="https://www.linkedin.com/in/yasinelhilo/" target="_blank">
               <FaLinkedin />
             </a>

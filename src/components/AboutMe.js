@@ -17,10 +17,6 @@ import Mern from '../images/mern.jpg';
 import Github from '../images/github.png';
 
 
-
-
-
-
 function AboutMe() {
     return (
         <>
@@ -59,7 +55,7 @@ function AboutMe() {
               <img src={mongodb} className='technologies' />
               <img src={Reactjs} className='technologies react-color' />
               <img src={Nodepackage} className='technologies' />
-              <img id='mern'src={Mern} className='technologies' />
+              <img src={Mern} className='technologies' />
               <img src={Github} className='technologies gitty'  />
                 </div>
                 
