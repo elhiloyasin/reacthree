@@ -40,7 +40,7 @@ function AboutMe() {
 
                 <div className='bio-info'>
                     <p>
-                        Hello there, I'm Yasin Elhilo, a Full Stack Web Developer with a deep passion for Web development. Lover of learning and staying up-to-date on the latest industry trends and advancements. Excited to leverage a thirst for knowledge and a versatile skill set to further business objectives while exceeding quality standards.
+                        Hello there, I'm Yasin Elhilo,  a Full Stack Web Developer with a deep passion for Web development. Lover of learning and staying up-to-date on the latest industry trends and advancements. Excited to leverage a thirst for knowledge and a versatile skill set to further business objectives while exceeding quality standards.
                     </p>
 
                 </div>
@@ -63,14 +63,6 @@ function AboutMe() {
               <img src={Github} className='technologies gitty'  />
                 </div>
                 
-    
-
-               
- 
-
-
-
-
             </Container>
 
 
