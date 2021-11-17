@@ -96,10 +96,12 @@ h1{
     border-radius: 9000rem !important;
     block-size: 5rem;
     margin-top: 1rem;
+    margin-bottom: 2rem;
     padding-left: 1rem;
     animation-name: tech;
     animation-duration: 2s;
     animation-iteration-count: 1;
+    
 }
 
 
@@ -113,10 +115,23 @@ h1{
     
   }
 
+  .gitty{
+      margin-left: 3rem;
+      padding-left: .2rem;
+      background-color: rgba(19, 153, 4, 0.886);
+     
+  }
+
   .react-color{
       background-color: rgba(26, 0, 0, 0.886);
       
   }
+
+  #mern{
+    
+  }
+
+
 
 
 
