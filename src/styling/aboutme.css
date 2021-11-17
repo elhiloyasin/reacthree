@@ -30,7 +30,7 @@ div h1:hover{
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 1.1rem;
-    border-bottom: 1px solid rgba(98, 104, 160, 0.832);
+    /* border-bottom: 1px solid rgba(98, 104, 160, 0.832); */
     animation-name: text;
     animation-duration: 4s;
    
@@ -42,78 +42,83 @@ div h1:hover{
 
 @keyframes text {
     0%   {color:rgb(0, 0, 0)}
-    25%  {color:rgb(191, 155, 11)}
+    25%  {color:rgb(238, 219, 11)}
     25%  {font-size:xx-large;}
   
     
   }
 
-.skills-title{
+ .skills-title{
     display: flex;
     flex-direction: row;
     justify-content: center;
     cursor: default;
     font-family: boku;
-    color: rgba(11, 184, 237, 0.981);
-    margin-top: 3rem;
-    border-radius: 4rem !important;
-    background-color: rgba(4, 0, 19, 0.66) !important;
-    height: 24rem;
-    border-bottom: 7px solid rgba(4, 244, 120, 0.973) !important;
-  
-    
- 
+    color: rgba(11, 146, 237, 0.981);
+    margin-top: 2rem;
+    height: 5rem;
+    background-color: rgba(1, 1, 20, 0.39);
+    border-radius: 3rem;
+
+
+} 
+
+
+
+
+.frontend-title{
+    font-family: cursive;
+    text-align: center;
+    color:rgb(164, 32, 204);
+    font-weight: bolder;
+   
 }
 
 
-#frontend-title{
-    padding-right:3rem;
-    color: rgb(9, 231, 72);
-   position: relative;
-   bottom: 20rem;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   font-family: cursive;
-}
 
-
-.technologies{
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    bottom: 19rem;
-    color:rgb(255, 255, 255);
-    font-family: Inconsolata;
-    font-size: x-large;
-    margin-right: 2rem;
-    flex-wrap: wrap;
-}
 
 p:hover {
-    color: rgb(241, 222, 8);
+    color: rgb(247, 239, 2);
     cursor: default;
     font-size: x-large;
 }
 
-h2:hover{
-    color: yellow;
-}
+
+
 
 
 h1{
     font-size: 3.5rem !important;
 }
 
-@media ( max-width: 600px){
-    .technologies{
-        flex-direction: row;
-        margin-right: 1rem;
-        padding: 1.5rem;
-
-    }
+.technologies{
+    text-align: center;
+    border-radius: 9000rem !important;
+    block-size: 5rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    animation-name: tech;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
-   
+
+
+
+
+@keyframes tech {
+    0%   {background-color:rgb(0, 0, 0)}
+    25%  {background-color:rgb(191, 11, 11)}
+    50%  {block-size: 4000rem}
+  
+    
+  }
+
+  .react-color{
+      background-color: rgba(26, 0, 0, 0.886);
+      
+  }
+
+
 
 
 

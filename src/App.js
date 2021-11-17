@@ -22,6 +22,7 @@ function App() {
           projects='PROJECTS'
           contact='CONTACT'
         />
+
         <Switch>
           <Route exact path="/" component={AboutMe} />
           <Route exact path="/aboutme" component={AboutMe} />

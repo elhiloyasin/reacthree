@@ -8,6 +8,7 @@ background-color: rgb(27, 29, 29);
 .sticky-nav {
   position: sticky !important;
   top: 0 !important ;
+  z-index: 999;
 }
 
 /* rgb(25, 148, 175) */
@@ -29,7 +30,11 @@ body{
     color: rgb(0, 255, 229) !important;
 }
 
-
+.navbar-toggler { 
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
 
 
 
