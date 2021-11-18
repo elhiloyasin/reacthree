@@ -30,7 +30,7 @@ function Projects() {
             <Container className="text-white ">
                 <Row xs={1} md={2}>
                     <Col>
-                    <Card.Img src={Homegrown} alt="homegrown" />
+                    <Card.Img className='homegrown-image' src={Homegrown} alt="homegrown" />
                     </Col>
                     <Col>
                     <Card.Body >
@@ -39,8 +39,10 @@ function Projects() {
                         Some quick example text to build on the card title and make up the bulk of
                         the card's content.
                     </Card.Text>
-                    <Button variant="primary">Primary</Button>
-                    <Button variant="primary">Primary</Button>{' '}
+                    <div className='homegrown-buttons'>
+                    <Button variant="primary">Demo</Button>
+                    <Button variant="success">Github</Button>
+                    </div>
                 </Card.Body>
                     </Col>
                 </Row>
