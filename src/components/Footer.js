@@ -10,8 +10,7 @@ import { IconContext } from 'react-icons'
 
 function Footer() {
   return (
-
-
+    
     <Card>
 
       <Card.Body className='footer-color icons'>
