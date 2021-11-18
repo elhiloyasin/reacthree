@@ -27,12 +27,12 @@ function Projects() {
                 </div>
             </div>
 
-            <Container className="text-white content-center justify-content-md-center">
-                <Row>
-                    <Col className="flex-end">
+            <Container className="text-white ">
+                <Row xs={1} md={2}>
+                    <Col>
                     <Card.Img src={Homegrown} alt="homegrown" />
                     </Col>
-                    <Col className="justify-content-md-center">
+                    <Col>
                     <Card.Body >
                     <Card.Title className="frontendone-title"> HOME GROWN </Card.Title>
                     <Card.Text className='frontendone-description'>
@@ -45,6 +45,9 @@ function Projects() {
                     </Col>
                 </Row>
             </Container>
+
+
+            
 
 
 
