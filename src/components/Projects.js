@@ -45,8 +45,8 @@ function Projects() {
                                 <img src={JavaScript} className='tech-used' />
                             </Card.Text>
                             <div className='homegrown-buttons'>
-                                <a href="https://github.com/elhiloyasin/HomeGrown" target="_blank"><Button variant="danger">DEMO</Button></a>
-                                <a href="https://sbharadw.github.io/HomeGrown" target="_blank"><Button variant="success">GITHUB</Button></a>
+                                <a href=" https://sbharadw.github.io/HomeGrown" target="_blank"><Button variant="danger">DEMO</Button></a>
+                                <a href="https://github.com/elhiloyasin/HomeGrown " target="_blank"><Button variant="success">GITHUB</Button></a>
                             </div>
                         </Card.Body>
                     </Col>
