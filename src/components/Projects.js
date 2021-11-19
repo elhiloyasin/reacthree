@@ -18,10 +18,7 @@ import Express from '../images/express.png';
 
 
 function Projects() {
-
-
     return (
-
         <>
             <div>
                 <div className='projects-title'>
@@ -53,8 +50,6 @@ function Projects() {
                             </div>
                         </Card.Body>
                     </Col>
-
-
                     <Col>
                         <Card.Img className='teamprofile-image' src={TeamProfile} alt="team-profile" />
                     </Col>
@@ -62,7 +57,7 @@ function Projects() {
                         <Card.Body >
                             <Card.Title className="frontendtwo-title"> TEAM PROFILE GENERATOR </Card.Title>
                             <Card.Text className='frontendtwo-description'>
-                            The main concept of this application is to ask the user about the the individuals that the user works with, based on the users response we then create cards that generate a descriptive profile of each indiviual that is a part of that users team.<br></br>
+                                The main concept of this application is to ask the user about the the individuals that the user works with, based on the users response we then create cards that generate a descriptive profile of each indiviual that is a part of that users team.<br></br>
                                 <p id='technologies-used-title'>TECHNOLOGIES USED</p>
                                 <img src={Html} className='tech-used' />
                                 <img src={Css} className='tech-used' />
@@ -73,16 +68,16 @@ function Projects() {
                                 <a href="https://github.com/elhiloyasin/Team-Profile-Generator" target="_blank"><Button variant="success">GITHUB</Button></a>
                             </div>
                         </Card.Body>
-                    </Col>  
+                    </Col>
                 </Row>
             </Container>
 
-                <div className='backend-title'>
-                    <h2>BACK-END</h2>
-                </div>
-                <Container className="text-white ">
+            <div className='backend-title'>
+                <h2>BACK-END</h2>
+            </div>
+            <Container className="text-white ">
                 <Row xs={1} md={2}>
-                
+
                     <Col>
                         <Card.Img className='progressive-image' src={Progressive} alt="progressive" />
                     </Col>
@@ -90,7 +85,7 @@ function Projects() {
                         <Card.Body >
                             <Card.Title className="progressive-title"> PROGRESSIVE APP</Card.Title>
                             <Card.Text className='progressive-description'>
-                            The purpose of this application is to save the budgets we submited to mongodb database while we are working online, but if we happen to be working offline the submitted budgets will be stored in indexDb that is index database which is a front end database. As soon as we find a network then the stored data at the front-end that is in the indexDb will be stored automatically to mongodb database.<br></br>
+                                The purpose of this application is to save the budgets we submited to mongodb database while we are working online, but if we happen to be working offline the submitted budgets will be stored in indexDb that is index database which is a front end database. As soon as we find a network then the stored data at the front-end that is in the indexDb will be stored automatically to mongodb database.<br></br>
                                 <p id='technologies-used-title'>TECHNOLOGIES USED</p>
                                 <img src={Html} className='tech-used' />
                                 <img src={Css} className='tech-used' />
@@ -104,23 +99,23 @@ function Projects() {
                                 <a href="https://github.com/elhiloyasin/progressive-app" target="_blank"><Button variant="success">GITHUB</Button></a>
                             </div>
                         </Card.Body>
-                    </Col>   
+                    </Col>
                 </Row>
             </Container>
             <div className='fullstack-title'>
-                    <h2>FULL-STACK</h2>
-                </div>
+                <h2>FULL-STACK</h2>
+            </div>
 
-                <Container className="text-white ">
+            <Container className="text-white ">
                 <Row xs={1} md={2}>
-                <Col>
+                    <Col>
                         <Card.Img className='flamengo-image' src={Flamengo} alt="Flamengo" />
                     </Col>
                     <Col>
                         <Card.Body >
                             <Card.Title className="flamengo-title">Flamengo</Card.Title>
                             <Card.Text className='flamengo-description'>
-                            The purpose of this application is to save the budgets we submited to mongodb database while we are working online, but if we happen to be working offline the submitted budgets will be stored in indexDb that is index database which is a front end database. As soon as we find a network then the stored data at the front-end that is in the indexDb will be stored automatically to mongodb database.<br></br>
+                                The purpose of this application is to save the budgets we submited to mongodb database while we are working online, but if we happen to be working offline the submitted budgets will be stored in indexDb that is index database which is a front end database. As soon as we find a network then the stored data at the front-end that is in the indexDb will be stored automatically to mongodb database.<br></br>
                                 <p id='technologies-used-title'>TECHNOLOGIES USED</p>
                                 <img src={Html} className='tech-used' />
                                 <img src={Css} className='tech-used' />
@@ -134,20 +129,9 @@ function Projects() {
                                 <a href="https://github.com/elhiloyasin/Flamengo" target="_blank"><Button variant="success">GITHUB</Button></a>
                             </div>
                         </Card.Body>
-                    </Col>   
-
-
-
-
-
+                    </Col>
                 </Row>
             </Container>
-
-
-
-
-
-
 
         </>
 
