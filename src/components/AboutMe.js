@@ -15,6 +15,8 @@ import Reactjs from '../images/reactjs.png';
 import Nodepackage from '../images/nodepackage.png';
 import Mern from '../images/mern.jpg';
 import Github from '../images/github.png';
+import Button from 'react-bootstrap/Button';
+
 
 
 function AboutMe() {
@@ -57,7 +59,9 @@ function AboutMe() {
               <img src={Nodepackage} className='technologies' />
               <img src={Mern} className='technologies' />
               <img src={Github} className='technologies gitty'  />
+              <a className='projectlead-button'  href='./Projects'>< Button>VIEW PROJECTS</Button></a>
                 </div>
+               
                 
             </Container>
 

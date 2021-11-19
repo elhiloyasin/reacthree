@@ -44,8 +44,12 @@
     .frontendone-description{
         color:rgb(251, 251, 251);
         text-align: center !important;
-        font-weight: 700 !important;
-        
+        font-weight: 700 !important; 
+    }
+
+    .frontendone-description:hover{
+        font-size: 1.5rem ;
+
     }
 
     .homegrown-image{
@@ -130,6 +134,10 @@
 
     }
 
+    .frontendtwo-description:hover{
+        font-size: 1.5rem ;
+    }
+
 
     .teamprofile-buttons{
        display: flex;
@@ -145,10 +153,6 @@
     }
 
 
-
-    
-    
-
     .backend-title{
         display:block;
         margin-top: 3rem !important;
@@ -160,7 +164,7 @@
         font-family:monospace;
         text-align: center;
         box-shadow:  1px 9px 100px 5px #6103f7;
-        background-color: rgb(230, 211, 2);
+        background-color: rgb(108, 230, 2);
         border-radius: 3rem;
     }
 
@@ -172,8 +176,8 @@
     border-color: rgb(12, 242, 8);
     animation: mymove 4s ease-in-out;
     animation-iteration-count: 1;
-
 }
+
 
 .progressive-title{
     color:white;
@@ -181,11 +185,16 @@
 
 }
 
+
 .progressive-description{
     color:rgb(251, 251, 251);
     text-align: center !important;
     font-weight: 700 !important;
 
+}
+
+.progressive-description:hover{
+    font-size: 1.5rem;
 }
 
 .progressive-buttons{
@@ -201,6 +210,63 @@
     animation: shakebutton 0.5s;
     animation-iteration-count: 1;
 }
+
+.fullstack-title{
+    display:block;
+    margin-top: 3rem !important;
+    width: 200px;
+    margin-left: auto;
+    margin: auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:monospace;
+    text-align: center;
+    box-shadow:  1px 9px 100px 5px #6103f7;
+    background-color: rgba(230, 13, 2, 0.886);
+    border-radius: 3rem;
+
+}
+
+.flamengo-image{
+    margin-top: 3rem; 
+    box-shadow:  1px 9px 100px 5px #03f7a6a2;
+    border-radius: 3rem !important; 
+    border-color: rgb(12, 242, 8);
+    animation: mymove 4s ease-in-out;
+    animation-iteration-count: 1;
+}
+
+.flamengo-title{
+    color:white;
+    text-align: center;
+}
+
+.flamengo-description{
+    color:rgb(251, 251, 251);
+    text-align: center !important;
+    font-weight: 700 !important;
+
+}
+
+.flamengo-description:hover{
+    font-size: 1.5rem;
+}
+
+.flamengo-buttons{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+   text-align: center;
+
+}
+
+.flamengo-buttons:hover{
+    animation: shakebutton 0.5s;
+    animation-iteration-count: 1;
+}
+   
+   
+
 
 
 

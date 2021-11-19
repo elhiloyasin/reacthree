@@ -5,6 +5,7 @@ import { Row, Container, Col } from 'react-bootstrap/';
 import HomeGrown from '../images/homegrown.png';
 import TeamProfile from '../images/teamgeneratorprofile.png'
 import Progressive from '../images/progressiveapp.png';
+import Flamengo from '../images/flamengo.png';
 import Html from '../images/html.png';
 import Css from '../images/css.jpg';
 import JavaScript from '../images/javascript.png';
@@ -99,17 +100,48 @@ function Projects() {
                                 <img src={Express} className='tech-used' />
                             </Card.Text>
                             <div className='progressive-buttons'>
-                                <a href="https://github.com/elhiloyasin/HomeGrown" target="_blank"><Button variant="danger">DEMO</Button></a>
-                                <a href="https://sbharadw.github.io/HomeGrown" target="_blank"><Button variant="success">GITHUB</Button></a>
+                                <a href="https://infinite-lowlands-94253.herokuapp.com/" target="_blank"><Button variant="danger">DEMO</Button></a>
+                                <a href="https://github.com/elhiloyasin/progressive-app" target="_blank"><Button variant="success">GITHUB</Button></a>
                             </div>
                         </Card.Body>
-                    </Col>
-
-
-                    
+                    </Col>   
                 </Row>
             </Container>
+            <div className='fullstack-title'>
+                    <h2>FULL-STACK</h2>
+                </div>
 
+                <Container className="text-white ">
+                <Row xs={1} md={2}>
+                <Col>
+                        <Card.Img className='flamengo-image' src={Flamengo} alt="Flamengo" />
+                    </Col>
+                    <Col>
+                        <Card.Body >
+                            <Card.Title className="flamengo-title">Flamengo</Card.Title>
+                            <Card.Text className='flamengo-description'>
+                            The purpose of this application is to save the budgets we submited to mongodb database while we are working online, but if we happen to be working offline the submitted budgets will be stored in indexDb that is index database which is a front end database. As soon as we find a network then the stored data at the front-end that is in the indexDb will be stored automatically to mongodb database.<br></br>
+                                <p id='technologies-used-title'>TECHNOLOGIES USED</p>
+                                <img src={Html} className='tech-used' />
+                                <img src={Css} className='tech-used' />
+                                <img src={JavaScript} className='tech-used' />
+                                <img src={Node} className='tech-used' />
+                                <img src={mongodb} className='tech-used' />
+                                <img src={Express} className='tech-used' />
+                            </Card.Text>
+                            <div className='flamengo-buttons'>
+                                <a href="https://vast-reaches-08581.herokuapp.com/homepage.html" target="_blank"><Button variant="danger">DEMO</Button></a>
+                                <a href="https://github.com/elhiloyasin/Flamengo" target="_blank"><Button variant="success">GITHUB</Button></a>
+                            </div>
+                        </Card.Body>
+                    </Col>   
+
+
+
+
+
+                </Row>
+            </Container>
 
 
 
