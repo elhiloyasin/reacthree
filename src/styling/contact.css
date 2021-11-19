@@ -1,3 +1,29 @@
+.contact-tile{
+display: flex;
+flex-direction: row;
+justify-content: center ;
+ color: rgba(0, 0, 0, 0.981);
+ font-family: boku;
+ margin-top: 2rem;
+ border-bottom: 1px solid rgba(98, 104, 160, 0.099);
+
+}
+
+.row{
+    margin-left: 4rem !important;
+}
 
 
+
+
+
+
+
+
+@media (max-width:600px){
+    .row{
+        margin-left: 1.5rem !important;
+    }
+
+}
 
