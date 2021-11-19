@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center ;
-     color: rgba(22, 128, 177, 0.981);
+     color: rgba(0, 0, 0, 0.981);
      font-family: boku;
      margin-top: 2rem;
      border-bottom: 1px solid rgba(98, 104, 160, 0.099);
@@ -22,12 +22,30 @@
         margin-left: auto;
         margin: auto;
         text-align: center;
-        color: rgb(243, 8, 8);
-        font-family: sans-serif;
+        color: rgb(0, 0, 0);
+        font-family:monospace;
         text-align: center;
-        box-shadow:  1px 9px 100px 5px #6103f7;
-        background-color: rgba(235, 213, 15, 0.945);
-        border-radius: 30rem;
+        box-shadow:  1px 9px 100px 5px #03f70f;
+        background-color: rgb(2, 230, 177);
+        border-radius: 3rem;
+    }
+
+    .card-title {
+        background-color: rgb(13, 179, 197);
+        font-size: 2rem !important;
+        margin-top: 3rem !important;
+        border-radius: 3rem;
+        animation: mymove 4s ease-in-out;
+        animation-iteration-count: 1;
+      
+
+    }
+
+    .frontendone-description{
+        color:rgb(251, 251, 251);
+        text-align: center !important;
+        font-weight: 700 !important;
+        
     }
 
     .homegrown-image{
@@ -35,16 +53,18 @@
         box-shadow:  1px 9px 100px 5px #03f7a6a2;
         border-radius: 3rem !important; 
         border-color: rgb(117, 8, 242);
+        animation: mymove 4s ease-in-out;
+        animation-iteration-count: 1;
+     
+
     }
-
-
     .homegrown-buttons{
-        padding: 0 4rem 0 !important;
+        display: flex;
+        width: 100%;
+        justify-content:space-evenly;
+       text-align: center;
 
-   text-align: center;
     }
-
-
 
 
     .frontendone-title{
@@ -52,4 +72,100 @@
         text-align: center;
     }
 
+    
+
+    .tech-used{
+        text-align: center;
+        border-radius: 9000rem !important;
+        block-size: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        padding-left: 1rem;
+        animation: mymove 4s ease-in-out;
+        animation-iteration-count: 1;
+       
+        
+    }
+
+    
+    
+    .tech-used:hover{
+        block-size: 6rem !important;
+    }
+
+    
+    #technologies-used-title{
+    
+        background-color:  rgba(13, 44, 197, 0.568);
+        font-size: larger;
+        margin-top: 2rem !important;
+        border-radius: 3rem;
+    }
+
+
+
+    .teamprofile-image{
+        margin-top: 3rem; 
+        box-shadow:  1px 9px 100px 5px #03f7a6a2;
+        border-radius: 3rem !important; 
+        border-color: rgb(12, 242, 8);
+        animation: mymove 4s ease-in-out;
+        animation-iteration-count: 1;
+
+    }
+
+    .frontendtwo-title{
+        color:white;
+        text-align: center;
+    }
+
+    .frontendtwo-description{
+        color:rgb(251, 251, 251);
+        text-align: center !important;
+        font-weight: 700 !important;
+        background-color: rgba(0, 10, 1, 0.058);
+        border-radius: 30rem;
+
+    }
+
+
+    .teamprofile-buttons{
+       display: flex;
+        width: 100%;
+        justify-content:space-evenly;
+       text-align: center;
+
+    }
+    
+
+    .backend-title{
+        display:block;
+        margin-top: 3rem !important;
+        width: 200px;
+        margin-left: auto;
+        margin: auto;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-family:monospace;
+        text-align: center;
+        box-shadow:  1px 9px 100px 5px #6103f7;
+        background-color: rgb(230, 211, 2);
+        border-radius: 3rem;
+    }
+
+
+
+
+    @keyframes mymove {
+        from {padding-left: 1200px;}
+        to {margin-top: 0px;}
+      }
+
+
+    @media (max-width:600px){
+        .frontendone-title{
+            margin-top: 1rem !important;
+    
+        }
+    }
 

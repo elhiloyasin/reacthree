@@ -14,11 +14,18 @@ background-color: rgb(27, 29, 29);
 /* rgb(25, 148, 175) */
 
 body{
-  background-image: url(../images/einstein.jpg);
+  /* background: linear-gradient(0.25turn, #e10d0dc9, #010c1a, #f69d3c); */
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0, 140, 255, 0.9), rgba(188, 3, 249, 0.925) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
 }
 
+/* linear-gradient(0.25turn, #e10d0dc9, #010c1a, #f69d3c); */
+
+/* ../images/einstein.jpg */
+
 .logo{
-    color: rgb(0, 255, 229) !important;
+    color: rgb(0, 157, 255) !important;
     font-size: 2rem !important;
     font-family: Shrikhand;
   }
@@ -27,7 +34,7 @@ body{
 
 .active{
     font-size: large !important;
-    color: rgb(0, 255, 229) !important;
+    color: rgb(0, 145, 255) !important;
 }
 
 .navbar-toggler { 

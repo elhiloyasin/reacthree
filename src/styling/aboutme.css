@@ -4,10 +4,11 @@
 display: flex;
 flex-direction: row;
 justify-content: center ;
- color: rgba(22, 128, 177, 0.981);
+ color: rgba(0, 10, 14, 0.981);
  font-family: boku;
  margin-top: 2rem;
  border-bottom: 1px solid rgba(98, 104, 160, 0.099);
+
  
 } 
 
@@ -23,14 +24,22 @@ div h1:hover{
     margin-left: 6rem;
 }
 
+#image:hover{
+    -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+    
+   
+   
+}
+
 
 .bio-info{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     display: flex;
     flex-direction: row;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: x-large;
-    /* border-bottom: 1px solid rgba(98, 104, 160, 0.832); */
     animation-name: text;
     animation-duration: 4s;
    
@@ -48,11 +57,10 @@ div h1:hover{
     justify-content: center;
     cursor: default;
     font-family: boku;
-    color: rgba(11, 146, 237, 0.981);
+    color: rgba(15, 9, 1, 0.981);
     margin-top: 2rem;
     height: 5rem;
-    background-color: rgba(1, 1, 20, 0.39);
-    border-radius: 3rem;
+   
 
 
 } 
