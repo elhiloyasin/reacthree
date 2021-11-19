@@ -4,18 +4,19 @@ import Button from 'react-bootstrap/Button';
 import { Row, Container, Col } from 'react-bootstrap/';
 import HomeGrown from '../images/homegrown.png';
 import TeamProfile from '../images/teamgeneratorprofile.png'
+import Progressive from '../images/progressiveapp.png';
 import Html from '../images/html.png';
 import Css from '../images/css.jpg';
 import JavaScript from '../images/javascript.png';
-
+import Node from '../images/node.png';
+import mongodb from '../images/mongodb.png';
+import Express from '../images/express.png';
 
 
 
 
 
 function Projects() {
-
-
 
 
     return (
@@ -67,14 +68,11 @@ function Projects() {
                                 <img src={JavaScript} className='tech-used' />
                             </Card.Text>
                             <div className='teamprofile-buttons'>
-                                <a href="https://github.com/elhiloyasin/HomeGrown" target="_blank"><Button variant="danger">DEMO</Button></a>
-                                <a href="https://sbharadw.github.io/HomeGrown" target="_blank"><Button variant="success">GITHUB</Button></a>
+                                <a href="https://bit.ly/30DdlrA" target="_blank"><Button variant="danger">DEMO</Button></a>
+                                <a href="https://github.com/elhiloyasin/Team-Profile-Generator" target="_blank"><Button variant="success">GITHUB</Button></a>
                             </div>
                         </Card.Body>
-                    </Col>
-
-
-                    
+                    </Col>  
                 </Row>
             </Container>
 
@@ -85,19 +83,22 @@ function Projects() {
                 <Row xs={1} md={2}>
                 
                     <Col>
-                        <Card.Img className='teamprofile-image' src={TeamProfile} alt="team-profile" />
+                        <Card.Img className='progressive-image' src={Progressive} alt="progressive" />
                     </Col>
                     <Col>
                         <Card.Body >
-                            <Card.Title className="frontendtwo-title"> TEAM PROFILE GENERATOR </Card.Title>
-                            <Card.Text className='frontendtwo-description'>
-                            The main concept of this application is to ask the user about the the individuals that the user works with, based on the users response we then create cards that generate a descriptive profile of each indiviual that is a part of that users team.<br></br>
+                            <Card.Title className="progressive-title"> PROGRESSIVE APP</Card.Title>
+                            <Card.Text className='progressive-description'>
+                            The purpose of this application is to save the budgets we submited to mongodb database while we are working online, but if we happen to be working offline the submitted budgets will be stored in indexDb that is index database which is a front end database. As soon as we find a network then the stored data at the front-end that is in the indexDb will be stored automatically to mongodb database.<br></br>
                                 <p id='technologies-used-title'>TECHNOLOGIES USED</p>
                                 <img src={Html} className='tech-used' />
                                 <img src={Css} className='tech-used' />
                                 <img src={JavaScript} className='tech-used' />
+                                <img src={Node} className='tech-used' />
+                                <img src={mongodb} className='tech-used' />
+                                <img src={Express} className='tech-used' />
                             </Card.Text>
-                            <div className='teamprofile-buttons'>
+                            <div className='progressive-buttons'>
                                 <a href="https://github.com/elhiloyasin/HomeGrown" target="_blank"><Button variant="danger">DEMO</Button></a>
                                 <a href="https://sbharadw.github.io/HomeGrown" target="_blank"><Button variant="success">GITHUB</Button></a>
                             </div>
