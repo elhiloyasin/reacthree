@@ -35,7 +35,7 @@
         font-size: 2rem !important;
         margin-top: 3rem !important;
         border-radius: 3rem;
-        animation: mymove 4s ease-in-out;
+        animation: mymove 2s ease;
         animation-iteration-count: 1;
       
 
@@ -45,19 +45,16 @@
         color:rgb(251, 251, 251);
         text-align: center !important;
         font-weight: 700 !important; 
+        font-size: 1.2rem ;
     }
 
-    .frontendone-description:hover{
-        font-size: 1.5rem ;
-
-    }
 
     .homegrown-image{
         margin-top: 3rem; 
         box-shadow:  1px 9px 100px 5px #03f7a6a2;
         border-radius: 3rem !important; 
         border-color: rgb(117, 8, 242);
-        animation: mymove 4s ease-in-out;
+        animation: mymove 2s ease;
         animation-iteration-count: 1;
     }
 
@@ -90,7 +87,7 @@
         margin-top: 1rem;
         margin-bottom: 2rem;
         padding-left: 1rem;
-        animation: mymove 4s ease-in-out;
+        animation: mymove 2s ease;
         animation-iteration-count: 1;
         
     }
@@ -117,7 +114,7 @@
         box-shadow:  1px 9px 100px 5px #03f7a6a2;
         border-radius: 3rem !important; 
         border-color: rgb(12, 242, 8);
-        animation: mymove 4s ease-in-out;
+        animation: mymove 2s ease;
         animation-iteration-count: 1;
 
     }
@@ -131,12 +128,11 @@
         color:rgb(251, 251, 251);
         text-align: center !important;
         font-weight: 700 !important;
+        font-size: 1.2rem ;
 
     }
 
-    .frontendtwo-description:hover{
-        font-size: 1.5rem ;
-    }
+  
 
 
     .teamprofile-buttons{
@@ -174,7 +170,7 @@
     box-shadow:  1px 9px 100px 5px #03f7a6a2;
     border-radius: 3rem !important; 
     border-color: rgb(12, 242, 8);
-    animation: mymove 4s ease-in-out;
+    animation: mymove 2s ease;
     animation-iteration-count: 1;
 }
 
@@ -190,12 +186,10 @@
     color:rgb(251, 251, 251);
     text-align: center !important;
     font-weight: 700 !important;
-
+    font-size: 1.2rem;
 }
 
-.progressive-description:hover{
-    font-size: 1.5rem;
-}
+
 
 .progressive-buttons{
     display: flex;
@@ -232,7 +226,7 @@
     box-shadow:  1px 9px 100px 5px #03f7a6a2;
     border-radius: 3rem !important; 
     border-color: rgb(12, 242, 8);
-    animation: mymove 4s ease-in-out;
+    animation: mymove 2s ease;
     animation-iteration-count: 1;
 }
 
@@ -245,11 +239,8 @@
     color:rgb(251, 251, 251);
     text-align: center !important;
     font-weight: 700 !important;
+    font-size: 1.2rem;
 
-}
-
-.flamengo-description:hover{
-    font-size: 1.5rem;
 }
 
 .flamengo-buttons{
