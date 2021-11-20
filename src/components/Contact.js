@@ -7,29 +7,23 @@ function Contact() {
     return (
         <>
 
-            <div className='contact-tile'>
-                <h1>Contact Me!</h1>
+            <div className='contact-title'>
+                <h1>Contact</h1>
             </div>
 
-            <Container>
-                <Row className="row">
-                    <Col >
-                    <Card.Body className='mx-auto'>This is some text within a card bodydsfasdfasdfadsfasdfasdfasdfasdf.</Card.Body>
-                    <Card.Body>This is some text within a card body.</Card.Body>
-                    <Card.Body>This is some text within a card body.</Card.Body>
-                    <Card.Body>This is some text within a card body.</Card.Body>
-                    <Card.Body>This is some text within a card body.</Card.Body>
-                    <Card.Body>This is some text within a card body.</Card.Body>
-
-                    <Card.Body>This is some text within a card body.</Card.Body>
-
-
-
-                    </Col>
+            <Container fluid="md">
+                <Row>
+                <Card.Title id='contact-me'> Contact</Card.Title>
                     <Col>
-
-                    <Card.Body>This is some text within a card bodydsfasdfasdfadsfasdfasdfasdfasdf.</Card.Body>
+                        <Card.Body id='contact-information'>
+                           
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk
+                                of the card's content.
+                            </Card.Text>
+                        </Card.Body>
                     </Col>
+
 
 
 
