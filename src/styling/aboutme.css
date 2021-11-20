@@ -21,8 +21,17 @@ div h1:hover{
     margin-bottom: 2rem;
     box-shadow:  1px 9px 144px 5px #03b2f7;
     border-radius: 2rem;
-    margin-left: 6rem;
+    margin-left: 3.7rem;
 }
+
+
+@media (max-width:600px){
+    #image{
+        margin-left: 4.9rem ;
+    }
+}
+
+
 
 #image:hover{
     -webkit-transform: scaleX(-1);
