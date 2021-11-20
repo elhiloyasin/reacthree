@@ -58,6 +58,8 @@
         animation-iteration-count: 1;
     }
 
+    
+
 
     .homegrown-buttons{
         display: flex;
@@ -71,6 +73,30 @@
         animation: shakebutton 0.5s;
         animation-iteration-count: 1;
     }
+
+
+    @media(max-width:600px){
+        .homegrown-image{
+            margin-left: -1.2rem;
+        }
+        .card-title{
+         margin-left: -1.8rem;
+
+        }
+
+        .frontendone-description{
+            margin-left: -1.8rem;
+        }
+
+        .homegrown-buttons{
+            margin-left: -1rem;
+        }
+
+
+    }
+
+
+
 
 
     .frontendone-title{
