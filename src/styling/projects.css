@@ -254,6 +254,49 @@
     animation-iteration-count: 1;
 }
 
+
+
+@media(max-width:600px){
+    .progressive-image{
+        margin-left: -1.2rem; 
+    }
+
+    .progressive-title{
+     margin-left: -1.8rem;
+
+    }
+    .progressive-description{
+        margin-top: 1rem;
+        margin-left: -1.8rem;
+    }
+    .progressive-buttons{
+        margin-left: -1rem;
+    }
+
+}
+
+/* 
+@media(max-width:600px){
+    .teamprofile-image{
+        margin-left: -1.2rem;
+    }
+    .frontendtwo-title{
+        margin-left: -1.8rem;
+
+    }
+
+    .frontendtwo-description{
+        margin-top: 1rem;
+        margin-left: -1.8rem;
+    
+    }
+
+    .teamprofile-buttons{
+        margin-left: -1rem;
+    }
+} */
+
+
 .fullstack-title{
     display:block;
     margin-top: 3rem !important;
