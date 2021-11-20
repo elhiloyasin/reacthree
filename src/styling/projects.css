@@ -75,25 +75,7 @@
     }
 
 
-    @media(max-width:600px){
-        .homegrown-image{
-            margin-left: -1.2rem;
-        }
-        .card-title{
-         margin-left: -1.8rem;
-
-        }
-
-        .frontendone-description{
-            margin-left: -1.8rem;
-        }
-
-        .homegrown-buttons{
-            margin-left: -1rem;
-        }
-
-
-    }
+    
 
 
 
@@ -119,7 +101,6 @@
     }
 
     
-    
     .tech-used:hover{
         block-size: 6rem !important;
     }
@@ -133,6 +114,27 @@
         border-radius: 3rem;
     }
 
+
+    @media(max-width:600px){
+        .homegrown-image{
+            margin-left: -1.2rem;
+        }
+        .card-title{
+         margin-left: -1.8rem;
+
+        }
+
+        .frontendone-description{
+            margin-top: 1rem;
+            margin-left: -1.8rem;
+        }
+
+        .homegrown-buttons{
+            margin-left: -1rem;
+        }
+            
+
+    }
 
 
     .teamprofile-image{
@@ -172,6 +174,27 @@
     .teamprofile-buttons:hover{
     animation: shakebutton 0.5s;
     animation-iteration-count: 1;
+    }
+
+
+    @media(max-width:600px){
+        .teamprofile-image{
+            margin-left: -1.2rem;
+        }
+        .frontendtwo-title{
+            margin-left: -1.8rem;
+
+        }
+
+        .frontendtwo-description{
+            margin-top: 1rem;
+            margin-left: -1.8rem;
+        
+        }
+
+        .teamprofile-buttons{
+            margin-left: -1rem;
+        }
     }
 
 
