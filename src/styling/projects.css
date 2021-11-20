@@ -275,26 +275,7 @@
 
 }
 
-/* 
-@media(max-width:600px){
-    .teamprofile-image{
-        margin-left: -1.2rem;
-    }
-    .frontendtwo-title{
-        margin-left: -1.8rem;
 
-    }
-
-    .frontendtwo-description{
-        margin-top: 1rem;
-        margin-left: -1.8rem;
-    
-    }
-
-    .teamprofile-buttons{
-        margin-left: -1rem;
-    }
-} */
 
 
 .fullstack-title{
@@ -347,10 +328,26 @@
     animation: shakebutton 0.5s;
     animation-iteration-count: 1;
 }
-   
-   
 
+@media(max-width:600px){
+    .flamengo-image{
+        margin-left: -1.2rem;
+    }
+    .flamengo-title{
+        margin-left: -1.8rem;
 
+    }
+
+    .flamengo-description{
+        margin-top: 1rem;
+        margin-left: -1.8rem;
+    
+    }
+
+  .flamengo-buttons{
+        margin-left: -1rem;
+    }
+} 
 
 
 
