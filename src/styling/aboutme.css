@@ -51,7 +51,7 @@ div h1:hover{
     font-size: x-large;
     animation-name: text;
     animation-duration: 4s;
-    transition: color 4s;
+    transition: color 8s;
   
    
 }
