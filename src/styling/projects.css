@@ -2,7 +2,7 @@
 
 
 
-.projects-title{
+.projects-title {
     display: flex;
     flex-direction: row;
     justify-content: center ;
@@ -37,8 +37,6 @@
         border-radius: 3rem;
         animation: mymove 2s ease;
         animation-iteration-count: 1;
-      
-
     }
 
     .frontendone-description{

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Row, Container, Col } from 'react-bootstrap/';
-import Card from 'react-bootstrap/Card';
+
 
 
 function Contact() {
@@ -10,28 +9,44 @@ function Contact() {
             <div className='contact-title'>
                 <h1>Contact</h1>
             </div>
+                    {/* box-shadow: 0px 0px 12px -4px #000000; */}
+                    <div>
+                    <h1 id='contact-me'> Get In Touch!</h1>
 
-            <Container fluid="md">
-                <Row>
-                <Card.Title id='contact-me'> Contact</Card.Title>
-                    <Col>
-                        <Card.Body id='contact-information'>
-                           
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk
-                                of the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                    </Col>
+                    <div className='contact-info'>
+                        <p>
+                    Have a question?
+                    Let's get to know each other. How can I be useful to your service?
+                    Please feel free to reach out to me. I would be delighted to answer all your questions or concerns.
+                    Have a question?
+                    
+                    
+                        </p>
+                    </div>
 
-
-
-
-                </Row>
-
+                    </div>
+                        
 
 
-            </Container>
+
+
+
+
+
+
+               
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         </>

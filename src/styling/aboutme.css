@@ -21,7 +21,7 @@ div h1:hover{
     margin-bottom: 2rem;
     box-shadow:  1px 9px 144px 5px #03b2f7;
     border-radius: 2rem;
-    margin-left: 3.7rem;
+    margin-left: 6rem;
 }
 
 
@@ -51,14 +51,29 @@ div h1:hover{
     font-size: x-large;
     animation-name: text;
     animation-duration: 4s;
+    transition: color 4s;
+  
    
 }
 
+ /* For modern browsers */
+
+.bio-info:hover {
+    color: #000000;
+}
+
+
+
 @keyframes text {
-    0%   {color:rgb(0, 0, 0)}
-    25%  {color:rgb(238, 219, 11)}
-    25%  {font-size:xx-large;}
-  }
+    0%   {color:rgb(244, 185, 10)}
+    25%  {color:rgb(11, 238, 215)}
+
+}
+
+
+
+
+
 
  .skills-title{
     display: flex;
