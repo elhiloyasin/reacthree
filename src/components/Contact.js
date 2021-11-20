@@ -15,10 +15,9 @@ function Contact() {
 
                     <div className='contact-info'>
                         <p>
-                    Have a question?
-                    Let's get to know each other. How can I be useful to your service?
+                    Have a question? <br />
+                    Let's get to know each other. <br /> How can I be useful to your service? <br />
                     Please feel free to reach out to me. I would be delighted to answer all your questions or concerns.
-                    Have a question?
                     
                     
                         </p>
