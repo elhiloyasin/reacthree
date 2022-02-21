@@ -38,7 +38,7 @@ function AboutMe() {
 
                 <div className='bio-info'>
                     <p>
-                        Hello there, I'm Yasin Elhilo, a Full Stack Web Developer with a deep passion for Web development. Lover of learning and staying up-to-date on the latest industry trends and advancements. Excited to leverage a thirst for knowledge and a versatile skill set to further business objectives while exceeding quality standards.
+                    A full stack developer with over 2 years of experience in full stack development. Passionate about creating high performance and user friendly applications by writing efficient, testable and maintainable code. Proven skills in problem solving and strong foundation in Agile methodologies and Scrum practice.
                     </p>
 
                 </div>
