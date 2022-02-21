@@ -32,16 +32,6 @@ div h1:hover{
 }
 
 
-
-#image:hover{
-    -webkit-transform: scaleX(-1);
-     transform: scaleX(-1);
-    
-   
-   
-}
-
-
 .bio-info{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     display: flex;
@@ -58,9 +48,7 @@ div h1:hover{
 
  /* For modern browsers */
 
-.bio-info:hover {
-    color: #000000;
-}
+
 
 
 
